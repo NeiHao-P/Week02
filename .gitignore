@@ -1,5 +1,18 @@
-/C372_W01_L01_student
-/C372_W01_L02_student
-/C372_W02_L03_student
-/Resources
-/Week01
+# Ignore Microsoft Office files and temporary files
+*.docx
+*.pptx
+*.pdf
+~$*
+*.tmp
+
+# Ignore all node_modules folders anywhere in the project
+**/node_modules/
+
+# Ignore previous weeks' lesson folders
+**/C372_W01_L01_student/
+**/C372_W01_L02_student/
+**/C372_W02_L03_student/
+
+# Ignore Resources and Week 1 folders
+**/Resources/
+**/Week01/
